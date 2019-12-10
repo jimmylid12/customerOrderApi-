@@ -14,3 +14,17 @@
 /Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.dll
 /Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.pdb
 /Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.csprojAssemblyReference.cache
+C:\Users\Q5168593\Source\repos\customerOrderApi-\bin\Debug\netcoreapp2.2\CustomersOrderService.deps.json
+C:\Users\Q5168593\Source\repos\customerOrderApi-\bin\Debug\netcoreapp2.2\CustomersOrderService.runtimeconfig.json
+C:\Users\Q5168593\Source\repos\customerOrderApi-\bin\Debug\netcoreapp2.2\CustomersOrderService.runtimeconfig.dev.json
+C:\Users\Q5168593\Source\repos\customerOrderApi-\bin\Debug\netcoreapp2.2\CustomersOrderService.dll
+C:\Users\Q5168593\Source\repos\customerOrderApi-\bin\Debug\netcoreapp2.2\CustomersOrderService.pdb
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.csprojAssemblyReference.cache
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.csproj.CoreCompileInputs.cache
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.RazorAssemblyInfo.cache
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.RazorAssemblyInfo.cs
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.AssemblyInfoInputs.cache
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.AssemblyInfo.cs
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.RazorTargetAssemblyInfo.cache
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.dll
+C:\Users\Q5168593\Source\repos\customerOrderApi-\obj\Debug\netcoreapp2.2\CustomersOrderService.pdb

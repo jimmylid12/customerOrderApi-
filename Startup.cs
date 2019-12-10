@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using CustomersOrderService;
 using CustomersOrderService.Models;
+using CustomersOrderService.Data;
 
 namespace CustomersOrderService
 {
@@ -28,9 +29,10 @@ namespace CustomersOrderService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<TodoContext>(opt =>
-                opt.UseInMemoryDatabase("CustomersOrderService"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<OrdersContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("OrdersContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -2,7 +2,7 @@
 using System;
 namespace CustomersOrderService.Models
 {
-    public class TodoItem
+    public class Order
     {
         public long Id { get; set; }
         public string ProductName{ get; set; }
