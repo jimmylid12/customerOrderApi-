@@ -31,8 +31,16 @@ namespace CustomersOrderService
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            var server = Configuration["DBServer"] ?? "localhost";
+            var port = Configuration["DBPort"] ?? "1433";
+            var user = Configuration["DBUser"] ?? "SA";
+            var password = Configuration["DBPassword"] ?? "Pa55w0rd!!!";
+            var database = Configuration["Database"] ?? "OrdersService";
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
             services.AddDbContext<OrdersContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("OrdersContext")));
+                    options.UseSqlServer($"Server={server},{port};Initial Catalog={database};User ID={user};Password={password}"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,10 +56,11 @@ namespace CustomersOrderService
                 app.UseHsts();
             }
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            //app.UseDefaultFiles();
+            //app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();
+            PrepDB.PrepPopulation(app);
         }
     }
 }
