@@ -1,0 +1,16 @@
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/CustomersOrderService.deps.json
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/CustomersOrderService.runtimeconfig.json
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/CustomersOrderService.runtimeconfig.dev.json
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/CustomersOrderService.dll
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/bin/Debug/netcoreapp2.2/CustomersOrderService.pdb
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.RazorAssemblyInfo.cache
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.RazorAssemblyInfo.cs
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.AssemblyInfoInputs.cache
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.AssemblyInfo.cs
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.RazorTargetAssemblyInfo.cache
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.dll
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.pdb
+/Users/jimmylid12/Projects/CustomersOrderService/CustomersOrderService/obj/Debug/netcoreapp2.2/CustomersOrderService.csprojAssemblyReference.cache
