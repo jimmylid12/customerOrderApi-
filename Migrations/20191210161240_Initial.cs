@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CustomersOrderService.Migrations
@@ -13,9 +14,13 @@ namespace CustomersOrderService.Migrations
                 {
                     Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    ProductName = table.Column<string>(nullable: true),
-                    price = table.Column<string>(nullable: true),
-                    quantity = table.Column<string>(nullable: true)
+                    CustomerID = table.Column<int>(nullable: true),
+                    ProductID = table.Column<int>(nullable: true),
+                    Total = table.Column<double>(nullable: true),
+                    Quantity = table.Column<int>(nullable: true),
+                    ShippingAddress = table.Column<string>(nullable: true),
+                    OrderDate = table.Column<DateTime>(nullable: true),
+                    ShippingDate = table.Column<DateTime>(nullable: true),
                 },
                 constraints: table =>
                 {
