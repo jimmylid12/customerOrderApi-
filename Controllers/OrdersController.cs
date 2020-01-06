@@ -29,6 +29,7 @@ namespace CustomersOrderService.Controllers
         }
 
         // GET: api/Orders/5
+        //getting individual orders
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> GetOrder(long id)
         {
